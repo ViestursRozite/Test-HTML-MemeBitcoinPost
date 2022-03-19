@@ -1,0 +1,29 @@
+
+.center {
+    text-align: center;
+}
+
+.open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.gray{
+    color: rgb(125, 125, 125);
+}
+
+.cm1{
+    font-size: 1cm;
+}
+
+.cm08{
+    font-size: 0.8cm;
+}
+
+h1{
+    font-weight: bold;
+    text-align: center;
+}
