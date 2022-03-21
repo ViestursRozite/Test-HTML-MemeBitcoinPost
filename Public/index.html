@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,150 +8,365 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!-- Fonts Open sans -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-
-
-
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
+
+    <!-- font awesome question mark -->
+    <script src="https://use.fontawesome.com/dce8989f85.js"></script>
+
+    <!-- js f() for copy Text Button -->
+    <script>function copyTextButton() {
+            /* Get the text field */
+            var copyText = document.getElementById("myInput");
+
+            /* Select the text field */
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+            /* Copy the text inside the text field */
+            navigator.clipboard.writeText(copyText.value);
+
+            /* Alert the copied text */
+            alert("Copied the text: " + copyText.value);
+        }</script>
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+
+
 
     <title>[SIERIOUS] Bitcoin buy how?</title>
 </head>
 
 
-<body class="container-md open-sans center" >
+<body class="container-md open-sans center">
     <section>
-        <div><!-- Div needs a class  -->
-                <h1 class="bold center cm1"> Buy Bitcoin, Optimized for Sucsess, No hasstle</h1>
-                <br>
-                <br>
-                <h2 class="center bold">Get your:</h2>
-                <div>
-                    <p><strong>Bank login</strong> (Account statement - easy adress validation)</p>
-                    <p><strong>ID</strong>-card OR Drivers license OR Passport </p>
-                    <p><strong>Email</strong>  address that you used for your Paypal account <br>(Saves you a day of fuckery, if you decide to withdraw money to PayPal)</p>
-                    <p><strong>Smartphone</strong> (Snap some pics & 2-factor authentification)</p>
-                </div>
-                <br>
+        <div>
+            <!-- Div needs a class  -->
+            <h1 class="bold center cm1"> Buy Bitcoin, Optimized for Success, No hassle</h1>
+            <br>
+            <br>
+            <h2 class="center bold">Get your:</h2>
+            <div>
+                <p><strong>Address validation <button class="btn btn-secondary btn-sm" type="button"
+                            data-toggle="tooltip" data-placement="top"
+                            title="Any offical bill/document addressed to you..."><i class="fa fa-question-circle"
+                                aria-hidden="true"></i></button></strong> (If you don't pay bills - get a Bank
+                    statement <button class="btn btn-secondary btn-sm" type="button" data-toggle="tooltip"
+                        data-placement="top"
+                        title="Or account statement. Like a .PDF detailing your finances for the shortest timeframe your bank will allow."><i
+                            class="fa fa-question-circle" aria-hidden="true"></i></button>&nbsp; <button
+                        class="btn btn-secondary btn-sm" type="button" data-toggle="tooltip" data-placement="top"
+                        title="I had to google how to request it from my bank..."><i class="fa fa-question-circle"
+                            aria-hidden="true"></i></button> )</p>
+                <p><strong>ID</strong>-card OR Drivers license OR Passport </p>
+                <p><strong>Email</strong> you used for your PayPal<br>(Saves you a day of fuckery,
+                    if you decide to withdraw money to PayPal)</p>
+                <p><strong>Smartphone</strong> (Brokerages ask for your phone number)</p>
+            </div>
+            <br>
 
-                <h2 class="center bold">Prepare by:</h2>
-                <div>
-                    <p>Getting on a PC (save 15 min on filling forms & uploading files)</p>
-                    <p>Requesting a bank statement from Your bank to validate your residence (Or grab a bill that contains your name & address, from your inbox)</p>
-                    <p>Take a pictures of your ID front AND back (2 min timesave on processing if using a Drivers license)</p>
-                    <p>Get them and you bank statement on your desktop (Way more convinient once you decide to ( ͡° ͜ʖ ͡°) "shop around")</p>
-                    <p>Whip your bank's card out (Fastest funding option)</p>
-                    <p>Grab/make your password notebook (With cryptos, security's on You)</p>
-                    <p>If all your passwords are pretty much the same <br> ◕‿↼&nbsp;You&nbsp;silly&nbsp;goose&nbsp;you ... <br>  Now&nbsp;slap&nbsp;yourself, with&nbsp;your&nbsp;keyboard.  (That's your new password)</p>
-                </div>
-                <br>
-                <h2 class="center bold">You Now have:</h2>
-                <div>
-                    <p>An ID to validate your identity</p>
-                    <p>A document that contains your address and full legal name</p>
-                    <p>Acess to the Email you used for PayPal to signup in Coinbase</p>
-                    <p>An active phone number (yours)</p>
-                    <p>10 min</p>
-                </div>
-                <br>
-                <h2 class="center bold">Off You go buying crypto...</h2>
-                
-                <div>
-                    <p>Coinbase link here with </p>
-                    <p>Explain url</p>
-                    <p class="center"><button class="btn btn-primary " type="button">MF button</button></p>
-                </div>
-                <p>&nbsp;</p>
-                <p><strong class="gray">Tell me more - keep schrolling ... </strong></p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <!-- Link to Coinbase here -->
-                    
+            <h2 class="center bold">Prepare by:</h2>
+            <div>
+                <p>Getting on a PC (save 15 min on filling forms & uploading files)</p>
+                <p>Requesting a bank statement from Your bank to validate your residence (Or grab a bill that contains
+                    your name & address, from your inbox)</p>
+                <p>Take a photos of your drivers license front AND back (2 min timesaver on processing if using a
+                    Drivers
+                    license)
+                </p>
+                <p>Put them in a folder (Chances are - you will try out a bunch of brokerages)
+                </p>
+                <p>Whip your card out (A bank transfer might make sense if it's a large sum...)</p>
+                <p>Grab/make your password notebook (With cryptos, security's on You <button
+                        class="btn btn-secondary btn-sm" type="button" data-toggle="tooltip" data-placement="top"
+                        title="The only thing keeping your money in your hands is Your password and phone authentification."><i
+                            class="fa fa-question-circle" aria-hidden="true"></i></button>)</p>
+                <p>If all your passwords are pretty much the same <br>
+                    You&nbsp;silly&nbsp;goose&nbsp;you&nbsp;◕‿↼&nbsp;... <br> Now&nbsp;slap&nbsp;yourself,
+                    with&nbsp;your&nbsp;keyboard. (Hey look: a new password)</p>
+            </div>
+            <br>
+            <h2 class="center bold">You Now have:</h2>
+            <div>
+                <p>2 pictures To validate your identity</p>
+                <p>A document that contains your address and full legal name</p>
+                <p>Access to your proper Email to signup in Coinbase</p>
+                <p>An active phone number (yours)</p>
+                <p>10 min</p>
+                <p><strong>Note </strong>The validation part on their end can take up to <strong>a day</strong></p>
+            </div>
+            <br>
+            <h2 class="center bold">That's it, signup here</h2>
+            <br>
+
+            <div>
+
+                <a href="https://www.coinbase.com/join/rozite_9" target="_blank" rel="noopener noreferrer">
+                    <button class="btn btn-primary " type="button" data-toggle="tooltip" data-placement="top" title="+10$ at first 100$ spent on
+                    coinbase">coinbase.com<br>+ 10$</button>
+                </a>
+
+                <br><br>
+
+                <p>OR</p>
+
+                <div class="row justify-content-center">
+                    <div class="col-md-auto  ">
+                        <p>
+                            <!-- text field  https://www.coinbase.com/join/rozite_9 -->
+                            <input type="text" value="coinbase.com/join/rozite_9" id="myInput" size="23">
+                            <!-- The button used to copy the text -->
+                            <button class="btn btn-primary" onclick="copyTextButton()">Copy link</button>
+                        </p>
+                    </div>
                 </div>
             </div>
+            <br><br>
+            <br><br>
+            <br><br>
+            <p><strong class="gray">Tell me more - keep scrolling ... </strong></p>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+
+            <!-- Link to Coinbase here -->
+
+        </div>
+        </div>
     </section>
 
     <section>
         <div>
-        <!-- I'm not like the other girls -->
-        <h1 style="bold center cm08"><strong>Do Not Trust&nbsp;Trolls</strong></h1>
+            <!-- I'm not like the other girls -->
+            <h1 style="bold cm08"><strong>Do Not Trust&nbsp;Trolls</strong></h1>
 
-        <p>&nbsp;</p>
-        <p>When I was younger&nbsp;I used to be broke, depressed and Bitcoin-less.</p>
-        <p>I'd literally see history happening before me without beeing able to participate...</p>
-        <p>I'd give Twitter a little peek and hear of people riding the green line to the moon!</p>
-        <p>It annoyed me to no end.</p>
-        <p>I think you know why...</p>
-        <p>&nbsp;</p>
-        <p>You've taught about giving Bitcoin a go but there's an issue...</p>
-        <p>It takes like a Google&nbsp;search or something and man that's jus too much effort to exert.</p>
-        <p>One Spambot tells you to sign up using it's refferal link, but you wouldn't fall for such self centered scammy behaivior!</p>
-        <p>You've experienced that&nbsp;overwhelming feeling because of all the du-dilligence you know you should do when choosing where to trade Cryptos.</p>
-        <p>How are you supposed to do that when you know you will have to God forbid take Time to Read or even worse make rational decisions about picking a brocker based on thir fees.</p>
-        <p>You end up not doing anything so much that you don't even see any real progress.</p>
-        <p>Now that I am an experianced Bitcoin Millionare.Man, I uh... make 200 000$ trades on the daily! I can tell you that a lot of people promoting Coinbase do so because of the 10$ refferal bonus they get in return! They promote stuff based on personal gain NOT the best place for trade.</p>
-        <p>That's why you see everyone promoting the same 2-3 sites - It's refferals, not useful information!</p>
-        <p><strong>Luckly for you Im somewhat of a crypto brockerage expert myself.</strong></p>
-    </div>
+            <p>&nbsp;</p>
+            <p>I still remember talking to my friends about buying in when Bitcoin was still at 600$...</p>
+            <p>Before the brokerage boom there simply was no way to get a hold of crypto easily.</p>
+            <p>Even if I had the sense that this was going to be big.</p>
+            <p>I had no way to take a position.</p>
+            <p>Even worse, the closest thing - stock brokers required you to prove you had over 100k in disposable
+                income just to open an account.</p>
+            <p>&nbsp;</p>
+            <p>You likely faced similar problems.</p>
+            <p>Right now we are experiencing a gold rush of brokerages. As opening a one pretty much prints money for
+                the owner.</p>
+            <p>There are hundreds of options to pick from, how do you know what is the best one? </p>
+            <p>You could slog trough hundreds of hidden terms & conditions pages...</p>
+            <p>Pick a trading perfect for your situation.</p>
+            <p>Meanwhile You see everyone having unending piles of cash to experiment with platforms the fun way.</p>
+            <p>You have to start asking how can people check out so many sites ?</p>
+            <p>I had the same questions...</p>
+            <p>Turns out the current broker oversaturation has lead to many just throwing money at people to get them
+                on their platform.</p>
+            <p>Just recently I figured this out. So simply churning brokerages allowed me to retroactively cover my
+                trading costs.</p>
+            <p>That is also reason you will see the same 3 sites being promoted by everyone. They simply give bonuses
+                for referrals, it's not specifically in Your best interests to stay and trade on them each day.</p>
+            <p><strong>After I grabbed my 20$<button class="btn btn-secondary btn-sm" type="button"
+                        data-toggle="tooltip" data-placement="top"
+                        title="Due to their high fees they can afford to give away so called free money for various things"><i
+                            class="fa fa-question-circle" aria-hidden="true"></i></button> from Coinbase I should have
+                    at least switched to pro.coinbase.com or another broker</strong></p>
+            <p>What was I saying? Oh right!</p>
+        </div>
     </section>
 
 
-    
+
 
     <div>
-        <h1 style="text-align: center;">Coinbase is where it's at Baby!</h1>
+        <h1 style="">Coinbase is where it's at Baby!</h1>
         <p>&nbsp;</p>
-        <p>I've put everything you need to acheve your dreams of crypto investments on this page.</p>
-        <p>Put your trust in this expert opinion and you'll have the complete guide to acheave your start to financial independance in one place.</p>
-        <p>You'll avoid the mistakes that beginners&nbsp;make (you'll know that it's all about following the crowd when everyone talks about Bitcoin buy the tip and when panic sets in sell the dip just like I did!)</p>
-        <p>You'll get an exclusive, one time bonus of BTC valued at 10% of your first purchase! (As long as you buy exactly 100$ worth of any Crypto.)</p>
-        <p>You'll make massive savings potentially covering the ludicrous fee Coinbase has on it's main platform where to buy 100$ of BTC you would spend an extra 3.45$ in fees!</p>
-        <p>And you get the oppertunity to participate In Coinbase learn where the site gives away it's  downtrending supplies of 3$ AMP and 10$ XLM for learning about how awesome they are! And a wopping 3$ ETH for setting up a Coinbase wallet that is deffinetly much better than the competition.</p>
-        <p>Click the blue Signup Now button to proceed or scroll down...</p>
+        <p>I've put Most things you will need on this page. </p>
+        <p>You'll avoid getting burned on high fees like I did.</p>
+        <p>Dedicated Crypto wallets are also a thing...</p>
+        <p>I go with independent ones like MetaMask <button class="btn btn-secondary btn-sm" type="button"
+                data-toggle="tooltip" data-placement="top"
+                title="It can be connected with sites like PancakeSwap where you can earn passive income on Etherium based coins"><i
+                    class="fa fa-question-circle" aria-hidden="true"></i></button> <a
+                href="https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en"
+                target="_blank" rel="noopener noreferrer">
+                <button class="btn btn-primary btn-sm" type="button" data-toggle="tooltip" data-placement="top"
+                    title="Chrome extention, also see app"><i class="bi bi-box-arrow-in-up-right"></i></button>
+            </a> and Exodus <button class="btn btn-secondary btn-sm" type="button" data-toggle="tooltip"
+                data-placement="top" title="I've been using this one for long term storage"><i
+                    class="fa fa-question-circle" aria-hidden="true"></i></button>.</p>
+
     </div>
+    <br><br>
 
     <div>
-        <h2>What You're Going To Get:</h2>
-        <p><strong>An account To buy BTC on Coinbase that You need to get in on buying cryptos!</strong></p>
-        <p>You're going to get same day access to the crypto market. </p>
-        <p>Access to free money that Coinbase gives away. Worth $26 (If you let your account sit for a few months since Coinbase does not allow you to take all "Learn" bonuses right away)</p>
-        <p>Ability to open Coinbase.pro account for free that has lower fees, Only 0.5% per transaction on the market!</p>
-        <p>Knowlage that You made the right choice picking a Crypto brocker with the highest signup bonuses (Available to most people)</p>
+        <a href="https://www.coinbase.com/join/rozite_9">
+            <button class="btn btn-primary " type="button" data-toggle="tooltip" data-placement="top" title="+10$ at first 100$ spent on
+            coinbase">coinbase.com<br>+ 26$</button>
+        </a>
+
+        <br><br>
+
+        <p>OR</p>
+
+        <div class="row justify-content-center">
+            <div class="col-md-auto  ">
+                <p>
+                    <!-- text field  https://www.coinbase.com/join/rozite_9 -->
+                    <input type="text" value="coinbase.com/join/rozite_9" id="myInput" size="23">
+                    <!-- The button used to copy the text -->
+                    <button class="btn btn-primary" onclick="copyTextButton()">Copy link</button>
+                </p>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br>
+    <br><br><br><br>
+    <p><strong class="gray">Click the blue Signup Now button to proceed or scroll down... </strong></p>
+    <br><br><br><br>
+
+    <div>
+        <h2><strong> What You're Going To Get:</strong></h2>
+        <p><strong>An account To buy BTC that You need to get in on buying cryptos!</strong></p>
+        <p>You're going to get access to not just the main crypto options but also many small market cap coins that can
+            make 20 30 % or even bigger changes in value just in a day . </p>
+        <p>Access to free money that Coinbase gives away. Worth $26 (If you let your account sit for a bit since
+            Coinbase does not allow you to take all the bonuses right away)</p>
+        <p>Ability to open Coinbase.pro account for free that has lower fees, Only 0.5% per transaction on the market!
+        </p>
+        <p>Knowlage that You made the right choice picking a Crypto brocker with the highest signup bonuses (available
+            first day)</p>
         <p>You will no longer need to think about what brocker to pick.</p>
-        <p>You're going to have just one place to dip your feet into crypto markets - giving you a decent learning ground for a few months!</p>
+        <p>You're going to have just one place to dip your feet into crypto markets - giving you a decent learning
+            ground for a while!</p>
     </div>
-    
-    <!-- Before & after pic -->
-
-    <!-- Fake bitcoin buyer 01 -->
-    <!-- Fake bitcoin buyer 02 -->
-    <!-- Fake bitcoin buyer 03 -->
 
     <div>
-        <h2 style="text-align: center;"><strong>Make Your Crypto trading account Now!</strong></h2>
-        <p style="text-align: center;"><strong>No money back&nbsp;guarantee&nbsp;- no hassle. Just hustle.</strong></p>
-        
+        <h2 style=""><strong>Make Your Crypto trading account Now!</strong></h2>
     </div>
+
+    <br><br>
+
+    <div>
+        <a href="https://www.coinbase.com/join/rozite_9" target="_blank" rel="noopener noreferrer">
+            <button class="btn btn-primary " type="button" data-toggle="tooltip" data-placement="top" title="+10$ at first 100$ spent on
+            coinbase">coinbase.com<br>+ 26$</button>
+        </a>
+
+        <br><br>
+
+        <p>OR</p>
+
+        <div class="row justify-content-center">
+            <div class="col-md-auto  ">
+                <p>
+                    <!-- text field  https://www.coinbase.com/join/rozite_9 -->
+                    <input type="text" value="coinbase.com/join/rozite_9" id="myInput" size="23">
+                    <!-- The button used to copy the text -->
+                    <button class="btn btn-primary" onclick="copyTextButton()">Copy link</button>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br><br>
 
     <div>
         <p>Wait so is Coinbase Good or not?</p>
         <p>It's painfully mid, switch after a month or two.</p>
-        <p>Also if you start getting ideas about making grandpa and grandma an account - Read what disqualifies you from a refferal bonus.</p>
+        <p>Also if you start getting ideas about making grandpa and grandma an account - Read what disqualifies you from
+            a refferal bonus.<a
+                href="https://help.coinbase.com/en/coinbase/other-topics/other/the-coinbase-referral-program"
+                target="_blank" rel="noopener noreferrer">
+                <button class="btn btn-primary " type="button" data-toggle="tooltip" data-placement="top"
+                    title="+ Why haven't I receaved a bonus?">Terms <i class="bi bi-box-arrow-in-up-right"></i></button>
+            </a></p>
     </div>
+
+    <br><br><br><br>
+    <br><br><br><br>
 
     <div>
-        <h2 style="text-align: center;"><strong>Channels that produce decent content on Youtube related to Crypto brockers and so on...(optimized for fun with some decent information sprinkles)</strong></h2>
-        <p>You will only ever get the best brockers, deals and so on by taking a few days and you know... Doing your own reaserch.</p>
+        <h2><strong>There is also Binance...</strong></h2>
+        <p>Similar situation, but there is less incentive to promote them</p>
+        <p>On the pluss side You can directly finance from Your previous brocker using BTC</p>
+        <div>
+            <!-- That's on fees you would be paying 0.09% instead of 0.1% -->
+            <a href="https://accounts.binance.com/en/register?ref=WH2V1MGR&utm_campaign=web_share_copy" target="_blank"
+                rel="noopener noreferrer">
+                <button class="btn btn-primary " type="button" data-toggle="tooltip" data-placement="top"
+                    title="">Binance 10% kickback on trades</button>
+            </a><button class="btn btn-secondary btn-sm" type="button" data-toggle="tooltip" data-placement="top"
+                title="That's on fees you would be paying 0.09% instead of 0.1%"><i class="fa fa-question-circle"
+                    aria-hidden="true"></i></button>
+
+            <br><br>
+
+            <p>OR</p>
+
+            <div class="row justify-content-center">
+                <div class="col-md-auto  ">
+                    <p>
+                        <!-- text field  accounts.binance.com/en/register?ref=WH2V1MGR&utm_campaign=web_share_copy -->
+                        <input type="text"
+                            value="accounts.binance.com/en/register?ref=WH2V1MGR&utm_campaign=web_share_copy"
+                            id="myInput" size="23">
+                        <!-- The button used to copy the text -->
+                        <button class="btn btn-primary" onclick="copyTextButton()">Copy link</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <p>That's the 2 most popular platforms.</p>
 
     </div>
+
+    <br><br><br><br>
+    <br><br><br><br>
+    <br><br><br><br>
+    <br><br><br><br>
+    <br><br><br><br>
+    <br><br><br><br>
+    <br><br><br><br>
+
+    <div>
+        <p><strong class="gray">Nothing to see here</strong></p>
+
+        <p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                <button class="btn btn-primary " type="button" data-toggle="tooltip" data-placement="top"
+                    title="Don't share with anyone">_</button>
+            </a></p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script>$(function () {
+            $(document).ready(function () {
+                $('button').tooltip();
+
+            })
+        })</script>
+
+
 
 
 </body>
