@@ -1,11 +1,20 @@
+.btn-pad { 
+    padding: 11px 60px; 
+} 
+
+.corner{
+    text-align: end;
+}
+
 
 .center {
     text-align: center;
 }
 
-.cropp {
-    width:;
+.squeeze{
+    font-stretch:extra-condensed;
 }
+
 
 .open-sans {
     font-family: 'Open Sans', sans-serif;
@@ -17,10 +26,23 @@
 
 .gray{
     color: rgb(125, 125, 125);
+    font-size: 0.65cm;
+    font-weight: 700;
+}
+
+.par-size{
+    font-size: 0.6cm;
 }
 
 .cm1{
     font-size: 1cm;
+}
+
+.cm2{
+    font-size: 1.65cm;
+    font-weight: 700;
+    font-stretch: narrower;
+
 }
 
 .cm08{
